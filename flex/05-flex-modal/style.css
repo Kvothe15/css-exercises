@@ -20,6 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 8px;
+  display: flex;
+  gap: 8px;
 }
 
 .icon {
@@ -66,4 +69,25 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.headerX{
+  display: flex;
+  justify-content: left;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 16px;
+  }
+
+.magnificientSteiner{
+
+}
+
+.text{
+  text-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.close-button{
+  position: fixed right ;
 }
